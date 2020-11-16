@@ -19,5 +19,5 @@ The following Python libraries were used in this repository:
 
 ## Contact
 
-Please, contact me on my email danielgarciache@gmail.com for any suggestion or question!
+Please, feel free to contact me on my email danielgarciache@gmail.com for any suggestion or question!
 Thank you for visiting my GitHub! :)
