@@ -2,19 +2,19 @@
 A ML model for image recognition using transfer learning.
 
 ## General info
-The aim of this project was to create a simple image recognition model using the weights of a pre-trained model (using weights learned on [ImageNet](http://www.image-net.org/) for this specific example). This model is composed of a pre-trained model and a model on top of it composed by six Dense layers. Five of these layers use a Relu function as their activation function and the last one uses a Softmax as activaction function in order to assign probabilities to the model output.
+The aim of this repository was to create a simple image recognition model using the weights of a pre-trained model (using weights learned on [ImageNet](http://www.image-net.org/) for this specific example). This model is composed of a pre-trained model and a model on top of it composed by six Dense layers. Five of these layers use a Relu function as their activation function and the last one uses a Softmax as activaction function in order to assign probabilities to the model output.
 
 
 
 ## Project structure
 
-The project is divided in one part, which must be executed in the following order:
+The repository must be executed in the following order:
 
 1. **Pre-trained model and New model (*mainmodel.py*):** This 
 
 ## Libraries
 
-The following Python libraries were used in this project:
+The following Python libraries were used in this repository:
 - Tensorflow Keras and TF Keras Preprocessing
 - Os
 
