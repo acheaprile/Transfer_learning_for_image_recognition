@@ -1,8 +1,10 @@
-# Transfer_learning_image_recognition
+# Transfer Learning for Image recognition
 A ML model for image recognition using transfer learning.
 
 ## General info
-The aim of this project was to create
+The aim of this project was to create a simple image recognition model using the weights of a pre-trained model (using weights learned on [ImageNet](http://www.image-net.org/) for this specific example). This specific model is composed of a pre-trained model and a model on top of it composed by six Dense layers, which five of them use a Relu function as the activation function and the last one uses a Softmax activaction function in order to assign 
+
+
 
 ## Project structure
 
