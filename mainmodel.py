@@ -5,10 +5,11 @@ from matplotlib import pyplot as plt
 
 imgdir="filepath"
 
-# Define the parameters for the model and the number of classes
+# Define the parameters for the model and the number of image classes
 categ=int((len([i for i in os.walk(imgdir)])-1))
 bsize=1200
 stepsepoch=10
+epochs=100
 
 imgdg=ImageDataGenerator(rescale=1/255, validation_split=0.2,
                          rotation_range=0.25, vertical_flip=True)
@@ -43,5 +44,5 @@ model.compile(optimizer="Adam", loss="categorical_crossentropy",
               metrics=["accuracy"])
 model.summary()
 
-history=model.fit_generator(traindg, steps_per_epoch=stepsepoch, epochs=5,
+history=model.fit_generator(traindg, steps_per_epoch=stepsepoch, epochs=epochs,
                     validation_data=valdg, callbacks=[callback1, callback2, callback3])
