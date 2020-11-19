@@ -12,8 +12,7 @@ stepsepoch=10
 epochs=100
 
 # We rescale, rotate and flip the images and define of the data for validation
-imgdg=ImageDataGenerator(rescale=1/255, validation_split=0.2,
-                         rotation_range=0.25, vertical_flip=True)
+imgdg=ImageDataGenerator(rescale=1/255, validation_split=0.2, rotation_range=0.25, vertical_flip=True)
 
 # We define the different number of classes based on the folders and resize the size of the images in them
 traindg=imgdg.flow_from_directory(imgdir, target_size=(150,150), batch_size=bsize, subset="training")
