@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
-from matplotlib import pyplot as plt
 
 imgdir="filepath"
 
