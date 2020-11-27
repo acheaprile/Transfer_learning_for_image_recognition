@@ -10,7 +10,7 @@ The aim of this repository was to create a simple image recognition model using 
 
 This repository contains only one file which must be executed in the following order:
 
-1. **Pre-trained model and New model on top (*mainmodel.py*):**
+1. **Pre-trained model and New model on top (*mainmodel.py*)**
 
 ## Libraries
 
